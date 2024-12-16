@@ -1,0 +1,108 @@
+2024-12-11 09:46:55,433:ERROR:invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1041, in update_product_details
+    p_mrp, p_discounted_price, p_stock, p_gst = float(p_mrp), float(p_discounted_price), int(p_stock), float(p_gst)
+                                                                                         ~~~^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+2024-12-14 23:57:34,131:ERROR:name 'barecode_IMI' is not defined
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 875, in add_product_details
+    '{p_cost}', '{p_discounted_price}', '{s_phone}', '{s_name}', '{s_mail}', '{barecode_IMI}')")
+                                                                               ^^^^^^^^^^^^
+NameError: name 'barecode_IMI' is not defined
+2024-12-15 00:26:18,946:ERROR:'UpdateProductDetails' object has no attribute 'barcode_IMI_entry'
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1053, in update_product_details
+    p_id, p_imi, p_name, p_hsn, p_brand = self.product_id_entry.get().strip().upper(), self.barcode_IMI_entry.get().strip().upper(), format_name(self.product_name_entry.get()), self.product_hsn_entry.get(), format_name(self.product_brand_entry.get())
+                                                                                       ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UpdateProductDetails' object has no attribute 'barcode_IMI_entry'. Did you mean: 'barecode_IMI_entry'?
+2024-12-15 00:34:20,943:ERROR:name 'barecode_IMI' is not defined
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 880, in add_product_details
+    '{p_cost}', '{p_discounted_price}', '{s_phone}', '{s_name}', '{s_mail}', '{barecode_IMI}')")
+                                                                               ^^^^^^^^^^^^
+NameError: name 'barecode_IMI' is not defined
+2024-12-15 01:03:02,495:ERROR:name 'barecode_IMI' is not defined
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 881, in add_product_details
+    '{p_cost}', '{p_discounted_price}', '{s_phone}', '{s_name}', '{s_mail}', '{barecode_IMI}')")
+                                                                               ^^^^^^^^^^^^
+NameError: name 'barecode_IMI' is not defined
+2024-12-15 01:07:26,912:ERROR:name 'barecode_IMI' is not defined
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 881, in add_product_details
+    '{p_cost}', '{p_discounted_price}', '{s_phone}', '{s_name}', '{s_mail}', '{barecode_IMI}')")
+                                                                               ^^^^^^^^^^^^
+NameError: name 'barecode_IMI' is not defined
+2024-12-15 09:26:05,546:ERROR:too many values to unpack (expected 4)
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1056, in update_product_details
+    p_id, p_name, p_hsn, p_brand = self.product_id_entry.get().strip().upper(), self.barcode_imi_entry.get().strip().upper(), format_name(self.product_name_entry.get()), self.product_hsn_entry.get(), format_name(self.product_brand_entry.get())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 4)
+2024-12-15 09:26:14,708:ERROR:too many values to unpack (expected 4)
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1056, in update_product_details
+    p_id, p_name, p_hsn, p_brand = self.product_id_entry.get().strip().upper(), self.barcode_imi_entry.get().strip().upper(), format_name(self.product_name_entry.get()), self.product_hsn_entry.get(), format_name(self.product_brand_entry.get())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 4)
+2024-12-15 09:26:24,514:ERROR:too many values to unpack (expected 4)
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1056, in update_product_details
+    p_id, p_name, p_hsn, p_brand = self.product_id_entry.get().strip().upper(), self.barcode_imi_entry.get().strip().upper(), format_name(self.product_name_entry.get()), self.product_hsn_entry.get(), format_name(self.product_brand_entry.get())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 4)
+2024-12-15 09:31:39,065:ERROR:too many values to unpack (expected 4)
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1056, in update_product_details
+    p_id, p_name, p_hsn, p_brand = self.product_id_entry.get().strip().upper(), self.barcode_imi_entry.get().strip().upper(), format_name(self.product_name_entry.get()), self.product_hsn_entry.get(), format_name(self.product_brand_entry.get())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 4)
+2024-12-15 09:31:48,396:ERROR:too many values to unpack (expected 4)
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1056, in update_product_details
+    p_id, p_name, p_hsn, p_brand = self.product_id_entry.get().strip().upper(), self.barcode_imi_entry.get().strip().upper(), format_name(self.product_name_entry.get()), self.product_hsn_entry.get(), format_name(self.product_brand_entry.get())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 4)
+2024-12-15 09:34:02,193:ERROR:too many values to unpack (expected 4)
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1056, in update_product_details
+    p_id, p_name, p_hsn, p_brand = self.product_id_entry.get().strip().upper(), self.barcode_imi_entry.get().strip().upper(), format_name(self.product_name_entry.get()), self.product_hsn_entry.get(), format_name(self.product_brand_entry.get())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 4)
+2024-12-15 09:38:43,375:ERROR:near "' WHERE product_id='": syntax error
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1077, in update_product_details
+    cur.execute(f"UPDATE inventory SET product_name='{p_name}', product_hsn='{p_hsn}', product_brand='{p_brand}', product_size='{p_size}', \
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                product_color='{p_color}', product_stock='{p_stock}', product_mrp='{p_mrp}', product_gst='{p_gst}', gender='{gender}', \
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                product_cost='{p_cost}', product_discounted_price='{p_discounted_price}', supplier_phone='{s_phone}', supplier_name='{s_name}', \
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                supplier_mail='{s_mail}', barcode_imi={b_imi}' WHERE product_id='{p_id}'")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "' WHERE product_id='": syntax error
+2024-12-15 09:39:26,567:ERROR:near "' WHERE product_id='": syntax error
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1077, in update_product_details
+    cur.execute(f"UPDATE inventory SET product_name='{p_name}', product_hsn='{p_hsn}', product_brand='{p_brand}', product_size='{p_size}', \
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                product_color='{p_color}', product_stock='{p_stock}', product_mrp='{p_mrp}', product_gst='{p_gst}', gender='{gender}', \
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                product_cost='{p_cost}', product_discounted_price='{p_discounted_price}', supplier_phone='{s_phone}', supplier_name='{s_name}', \
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                supplier_mail='{s_mail}', barcode_imi={b_imi}' WHERE product_id='{p_id}'")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "' WHERE product_id='": syntax error
+2024-12-15 09:41:50,228:ERROR:near "' WHERE product_id='": syntax error
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\POSlite3\app.py", line 1077, in update_product_details
+    cur.execute(f"UPDATE inventory SET product_name='{p_name}', product_hsn='{p_hsn}', product_brand='{p_brand}', product_size='{p_size}', \
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                product_color='{p_color}', product_stock='{p_stock}', product_mrp='{p_mrp}', product_gst='{p_gst}', gender='{gender}', \
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                product_cost='{p_cost}', product_discounted_price='{p_discounted_price}', supplier_phone='{s_phone}', supplier_name='{s_name}', \
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                supplier_mail='{s_mail}', barcode_imi={b_imi}' WHERE product_id='{p_id}'")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "' WHERE product_id='": syntax error

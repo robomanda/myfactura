@@ -1,0 +1,14 @@
+{
+    "store": {
+        "store_name": "Robomanda",
+        "store_gstin": "998E6872Q",
+        "store_address1": "Calle bisba 168, Girona",
+        "store_address2": "Girona",
+        "store_phone": "612489157",
+        "store_email": "abc@gmail.com",
+        "store_website": "www.abc.com"
+    },
+    "billing": {
+        "barcode_max_len": 7
+    }
+}
